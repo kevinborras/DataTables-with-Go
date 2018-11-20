@@ -1,0 +1,100 @@
+1984;George Orwell;England;1903-1950
+A Doll's House;Henrik Ibsen;Norway;1828-1906
+A Sentimental Education;Gustave Flaubert;France;1821-1880
+Absalom,Absalom!;William Faulkner;United States;1897-1962
+The Adventures of Huckleberry Finn;Mark Twain;United States;1835-1910
+The Aeneid;Virgil;Italy;70-19 BC
+Anna Karenina;Leo Tolstoy;Russia;1828-1910
+Beloved;Toni Morrison;United States;b. 1931
+Berlin Alexanderplatz;Alfred Doblin;Germany;1878-1957
+Blindness;Jose Saramago;Portugal;1922-2010
+The Book of Disquiet;Fernando Pessoa;Portugal;1888-1935
+The Book of Job;Unknow;Israel;600-400 BC
+The Brothers Karamazov;Fyodor M Dostoyevsky;Russia;1821-1881
+Buddenbrooks;Thomas Mann;Germany;1875-1955
+Canterbury Tales;Geoffrey Chaucer;England;1340-1400
+The Castle;Franz Kafka;Bohemia;1883-1924
+Children of Gebelawi;Naguib Mahfouz;Egypt;b. 1911
+Collected Fictions;Jorge Luis Borges;Argentina;1899-1986
+Complete Poems;Giacomo Leopardi;Italy;1798-1837
+The Complete Stories;Franz Kafka;Bohemia;1883-1924
+The Complete Tales;Edgar Allan Poe;United States;1809-1849
+Confessions of Zeno;Italo Svevo;Italy;1861-1928
+Crime and Punishment;Fyodor M Dostoyevsky;Russia;1821-1881
+Dead Souls;Nikolai Gogol;Russia;1809-1852
+The Death of Ivan Ilyich and Other Stories;Leo Tolstoy;Russia;1828-1910
+Decameron;Giovanni Boccaccio;Italy;1313-1375
+The Devil to Pay in the Backlands;Joao Guimaraes Rosa;Brazil;1880-1967
+Diary of a Madman and Other Stories;Lu Xun;China;1881-1936
+The Divine Comedy;Dante Alighieri;Italy;1265-1321
+Don Quixote;Miguel de Cervantes Saavedra;Spain;1547-1616
+Essays;Michel de Montaigne;France;1533-1592
+Fairy Tales and Stories;Hans Christian Andersen;Denmark;1805-1875
+Faust;Johann Wolfgang von Goethe;Germany;1749-1832
+Gargantua and Pantagruel;Francois Rabelais;France;1495-1553
+Gilgamesh;Unknow; Mesopotamia;c 1800 BC
+The Golden Notebook;Doris Lessing;England;b.1919
+Great Expectations;Charles Dickens;England;1812-1870
+Gulliver's Travels;Jonathan Swift;Ireland;1667-1745
+Gypsy Ballads;Federico Garcia Lorca;Spain;1898-1936
+Hamlet;William Shakespeare;England;1564-1616
+History;Elsa Morante;Italy;1918-1985
+Hunger;Knut Hamsun;Norway;1859-1952
+The Idiot;Fyodor M Dostoyevsky;Russia;1821-1881
+The Iliad;Homer;Greece;c 700 BC
+Independent People;Halldor K Laxness;Iceland;1902-1998
+Invisible Man;Ralph Ellison;United States;1914-1994
+Jacques the Fatalist and His Master;Denis Diderot;France;1713-1784
+Journey to the End of the Night;Louis-Ferdinand Celine;France;1894-1961
+King Lear;William Shakespeare;England;1564-1616
+Leaves of Grass;Walt Whitman;United States;1819-1892
+The Life and Opinions of Tristram Shandy;Laurence Sterne;Ireland;1713-1768
+Lolita;Vladimir Nabokov;Russia/United States;1899-1977
+Love in the Time of Cholera;Gabriel Garcia Marquez;Colombia;b. 1928
+Madame Bovary;Gustave Flaubert;France;1821-1880
+The Magic Mountain;Thomas Mann;Germany;1875-1955
+Mahabharata;Unknow;India;c 500 BC
+The Man Without Qualities;Robert Musil;Austria;1880-1942
+The Mathnawi;Jalal ad-din Rumi;Afghanistan;1207-1273
+Medea;Euripides;Greece;c 480-406 BC
+Memoirs of Hadrian;Marguerite Yourcenar;France;1903-1987
+Metamorphoses;Ovid;Italy;c 43 BC
+Middlemarch;George Eliot;England;1819-1880
+Midnight's Children;Salman Rushdie;India/Britain;b. 1947
+Moby-Dick;Herman Melville;United States;1819-1891
+Mrs. Dalloway;Virginia Woolf;England;1882-1941
+Njaals Saga;Unknow;Iceland;c 1300
+Nostromo;Joseph Conrad;England;1857-1924
+The Odyssey;Homer;Greece;c 700 BC
+Oedipus the King Sophocles;Unknow;Greece;496-406 BC
+Old Goriot;Honore de Balzac;France;1799-1850
+The Old Man and the Sea;Ernest Hemingway;United States;1899-1961
+One Hundred Years of Solitude;Gabriel Garcia Marquez;Colombia;b. 1928
+The Orchard;Sheikh Musharrif ud-din Sadi;Iran;c 1200-1292
+Othello;William Shakespeare;England;1564-1616
+Pedro Paramo;Juan Rulfo Juan Rulfo;Mexico;1918-1986
+Pippi Longstocking;Astrid Lindgren;Sweden;1907-2002
+Poems;Paul Celan;Romania/France;1920-1970
+The Possessed;Fyodor M Dostoyevsky;Russia;1821-1881
+Pride and Prejudice;Jane Austen;England;1775-1817
+The Ramayana;Valmiki;India;c 300 BC
+The Recognition of Sakuntala;Kalidasa;India;c. 400
+The Red and the Black;Stendhal;France;1783-1842
+Remembrance of Things Past;Marcel Proust;France;1871-1922
+Season of Migration to the North;Tayeb Salih;Sudan;b. 1929
+Selected Stories;Anton P Chekhov;Russia;1860-1904
+Sons and Lovers;DH Lawrence;England;1885-1930
+The Sound and the Fury;William Faulkner;United States;1897-1962
+The Sound of the Mountain;Yasunari Kawabata;Japan;1899-1972
+The Stranger;Albert Camus;France;1913-1960
+The Tale of Genji;Shikibu Murasaki;Japan;c 1000
+Things Fall Apart;Chinua Achebe;Nigeria;b. 1930
+Thousand and One Nights;Unknow;India/Iran/Iraq/Egypt;700-1500
+The Tin Drum;Gunter Grass;Germany;b.1927
+To the Lighthouse;Virginia Woolf;England;1882-1941
+The Trial;Franz Kafka;Bohemia;1883-1924
+Trilogy: Molloy, Malone Dies, The Unnamable;Samuel Beckett; Ireland;1906-1989
+Ulysses;James Joyce;Ireland;1882-1941
+War and Peace;Leo Tolstoy;Russia;1828-1910
+Wuthering Heights;Emily Brontë;England;1818-1848
+Zorba the Greek;Nikos Kazantzakis;Greece;1883-1957
