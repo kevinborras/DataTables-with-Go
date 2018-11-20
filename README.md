@@ -1,6 +1,6 @@
 # How to populate DataTables using a Golang Web server
 
-In this repository I'm going to explain how to populate DataTables using a Golang Web server in different ways such as: `json`, `db`, `using paging` ...
+In this repository I'm going to explain how to populate DataTables using a Golang Web server and using different resources or ways such as: `json file`, `sqlite db`, `sqlite db with server-side processing` ...
 
 This is the result of some research and a lot of Pick and Go
 
