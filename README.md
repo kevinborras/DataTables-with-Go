@@ -48,7 +48,7 @@ It's simple and easy to setup, we only need to obtain the data from the database
 
 ## Database with paging
 
-For this approach I'm going to use SQLite. The reason is because I didn't find anything interesting of how to populate a DataTable using paging with SQLite and Golang, all the stuff that I found on the net were using PHP + MySQL or PostgreSQL.
+For this approach I'm going to use SQLite. The reason is because I didn't find anything interesting of how to populate a DataTable using paging with SQLite and Golang. All the stuff that I found on the net were using PHP + MySQL or PostgreSQL.
 
 If we need paging, it's because we are going to work with large amount of data. In order to achieve the best performance possible, we need to setup the database with some parameters.
 
