@@ -77,5 +77,5 @@ for i := 0; i < 1000000; i++ {
 
 ## References
 
-[SQLite documenation](https://www.sqlite.org/cvstrac/wiki?p=ScrollingCursor)  
+[SQLite documenation](https://www.sqlite.org/cvstrac/wiki)  
 [DataTables documentation](https://www.datatables.net/manual/server-side)
