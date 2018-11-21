@@ -77,7 +77,7 @@ When we use the DataTables serch functionallity, it's using something like an in
 3. search[value] = Rac
 4. search[value] = Racc
 5. search[value] = Racco
-6. search[value] = Racco
+6. search[value] = Raccoo
 7. search[value] = Raccoon
 ```
 
