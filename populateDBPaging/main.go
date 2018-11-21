@@ -45,9 +45,9 @@ var format = logging.MustStringFormatter(
 )
 
 //search function returns the result of the query
-func search(query, start, end string) (dataList []Book) {
+func search(query string, args []interface{}) (dataList []Book) {
 	var book Book
-	rows, err := db.Query(query, start, end)
+	rows, err := db.Query(query, args...)
 	if err != nil {
 		log.Critical("QueryRow: %v\n", err)
 	}
@@ -105,18 +105,18 @@ func search(query, start, end string) (dataList []Book) {
 func paging(w http.ResponseWriter, r *http.Request) {
 	log.Info(" -  Method:", r.Method, " -  /populateDataTable")
 	var paging PaginateDataStruct
-	var count string
+	var result []Book
+	var count, query string
+	var args []interface{}
 
 	if r.Method == "POST" {
-		//look if we are in the initial setup iteration
 		r.ParseForm()
 		count = `SELECT count(*) as frequency FROM Book`
 		start := r.FormValue("start")
 		end := r.FormValue("length")
 		draw := r.FormValue("draw")
-		searchValue := r.FormValue("search[value]")
 		log.Info("Start: ", start+" Length: "+end+" Draw: "+draw)
-		log.Info("Search Value: " + searchValue)
+		searchValue := r.FormValue("search[value]")
 
 		if draw == "1" {
 			rows, err := db.Query(count)
@@ -132,10 +132,43 @@ func paging(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		log.Infof("Records Filtered: %d", final)
-		query := `SELECT id,Title,Country,Date,Author FROM Book
-					ORDER BY Title
-					Limit ? , ?;`
-		result := search(query, start, end)
+
+		if searchValue != "" {
+			log.Info("Search Value: " + searchValue)
+			query = `SELECT id,Title,Country,Date,Author FROM Book
+						WHERE Title LIKE ? OR Country Like ?
+						OR Date Like ? OR Author Like ?
+						ORDER BY Title
+						Limit ? , ?;`
+
+			p := searchValue + "%"
+			args = []interface{}{p, p, p, p, start, end}
+			aux := []interface{}{p, p, p, p}
+			result = search(query, args)
+
+			//Here we obtain the number of results
+			rows, err := db.Query(`SELECT COUNT(*) FROM Book
+			WHERE Title LIKE ? OR Country Like ?
+			OR Date Like ? OR Author Like ?
+			ORDER BY Title`, aux...)
+			if err != nil {
+				fmt.Printf("QueryRow: %v\n", err)
+			}
+			defer rows.Close()
+			for rows.Next() {
+				err = rows.Scan(&final)
+				if err != nil {
+					fmt.Println(err)
+				}
+			}
+		} else {
+			query = `SELECT id,Title,Country,Date,Author FROM Book
+			ORDER BY Title
+			Limit ? , ?;`
+			args = []interface{}{start, end}
+			result = search(query, args)
+
+		}
 
 		paging.BookList = result
 		paging.Draw = draw
@@ -182,6 +215,30 @@ func init() {
 	db.Exec("PRAGMA _synchronous=OFF;")
 
 	statement, err := db.Prepare("CREATE TABLE IF NOT EXISTS Book (id INTEGER PRIMARY KEY, Title TEXT, Country TEXT, Date TEXT, Author TEXT)")
+	if err != nil {
+		fmt.Println(err)
+	}
+	statement.Exec()
+
+	statement, err = db.Prepare("CREATE INDEX IF NOT EXISTS tag_title ON Book (Title);")
+	if err != nil {
+		fmt.Println(err)
+	}
+	statement.Exec()
+
+	statement, err = db.Prepare("CREATE INDEX IF NOT EXISTS tag_country ON Book (Country);")
+	if err != nil {
+		fmt.Println(err)
+	}
+	statement.Exec()
+
+	statement, err = db.Prepare("CREATE INDEX IF NOT EXISTS tag_date ON Book (Date);")
+	if err != nil {
+		fmt.Println(err)
+	}
+	statement.Exec()
+
+	statement, err = db.Prepare("CREATE INDEX IF NOT EXISTS tag_author ON Book (Author);")
 	if err != nil {
 		fmt.Println(err)
 	}
