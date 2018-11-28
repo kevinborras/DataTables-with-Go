@@ -1,5 +1,5 @@
 # How to populate DataTables using a Golang Web server
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/kevinborras/DataTables-with-Go)](https://goreportcard.com/badge/github.com/kevinborras/DataTables-with-Go)  
 In this repository I'm going to explain how to populate DataTables using a Golang Web server in different ways such as: `json`, `db`, `using paging` ...
 
 This is the result of some research and a lot of Pick and Go
