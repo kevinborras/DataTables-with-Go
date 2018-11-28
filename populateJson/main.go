@@ -11,10 +11,10 @@ import (
 
 //Book contains the format of the json file
 type Book struct {
-	Title       string `json:"Title"`
+	Title   string `json:"Title"`
 	Country string `json:"Country"`
-	Date        string `json:"Date"`
-	Author      string `json:"Author"`
+	Date    string `json:"Date"`
+	Author  string `json:"Author"`
 }
 
 func mainpage(w http.ResponseWriter, r *http.Request) {
